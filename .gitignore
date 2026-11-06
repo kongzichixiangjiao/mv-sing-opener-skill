@@ -6,7 +6,6 @@ __pycache__/
 # 本地配置与密钥（发布时不要提交）
 .env
 .env.*
-!.env.example
 scripts/config.json
 scripts/material-uploader/config.json
 

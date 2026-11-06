@@ -12,7 +12,7 @@ brew install ffmpeg                # macOS；需要 ffmpeg / ffprobe
 首次使用：
 
 ```bash
-cp .env.example .env
+cp env.example .env
 # 编辑 .env：NEWAPI_IMAGE_KEY / ASSET_URL_BASE / ASSET_DEST_DIR / VIDEO_GATEWAY_BASE
 ```
 

@@ -1,7 +1,7 @@
 ---
 name: mv-sing-opener-skill
 displayName: 人物说唱视频制作官（四角色前置 · 图片人物开口 Rap · 海绵音乐出曲 · Seedance 2.5）
-version: 3.1.2
+version: 3.1.3
 description: >
   人物说唱视频制作官。用户给**一个想拍的人物/主题 ＋ 一条说唱音频**（音频可后补），
   本 skill 让**图片里的人跟着这条音频开口说唱**，产出 **9:16** 的人物说唱视频；
@@ -690,7 +690,7 @@ cd mv-sing-opener-skill
 pip install -r requirements.txt
 
 # 准备：所有 key / 本地地址放 .env，不要把 .env 提交到仓库
-cp .env.example .env
+cp env.example .env
 
 # 0) 建档（有图带 --image；无图先空着）
 python3 scripts/new_project.py --slug <短名> --duration 30
