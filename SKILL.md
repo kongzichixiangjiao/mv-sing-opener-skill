@@ -1,7 +1,7 @@
 ---
 name: mv-sing-opener-skill
 displayName: 人物说唱视频制作官（四角色前置 · 图片人物开口 Rap · 海绵音乐出曲 · Seedance 2.5）
-version: 3.1.3
+version: 3.1.4
 description: >
   人物说唱视频制作官。用户给**一个想拍的人物/主题 ＋ 一条说唱音频**（音频可后补），
   本 skill 让**图片里的人跟着这条音频开口说唱**，产出 **9:16** 的人物说唱视频；

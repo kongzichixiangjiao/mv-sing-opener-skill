@@ -78,7 +78,7 @@ brew install ffmpeg
 ## 安装
 
 ```bash
-git clone <your-repo-url> mv-sing-opener-skill
+git clone https://github.com/kongzichixiangjiao/mv-sing-opener-skill.git
 cd mv-sing-opener-skill
 pip install -r requirements.txt
 ```
@@ -282,7 +282,7 @@ assets/output/MV01-demo/
 
 ## 项目状态
 
-`v3.1.3`：流程、脚本、提示词契约和质检清单可用；新增无音频时的海绵音乐提示词输出与音频来源硬门。示例项目不随仓库发布（含个人音频与真人参考图），只保留两张风格卡生成的示例图。
+`v3.1.4`：流程、脚本、提示词契约和质检清单可用；新增无音频时的海绵音乐提示词输出与音频来源硬门。示例项目不随仓库发布（含个人音频与真人参考图），只保留两张风格卡生成的示例图。
 
 出片需要你自己的视频网关和公网存储；没有网关时，最多跑到分镜 JSON。仓库不附带任何可用网关。
 
