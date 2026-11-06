@@ -1,0 +1,28 @@
+# Python 运行时产物
+__pycache__/
+*.pyc
+*.pyo
+
+# 本地配置与密钥（发布时不要提交）
+.env
+.env.*
+!.env.example
+scripts/config.json
+scripts/material-uploader/config.json
+
+# 生成的项目与个人素材（可能含真人照片 / 音频）
+assets/output/*
+!assets/output/.gitkeep
+assets/输入音频/
+
+# macOS
+.DS_Store
+
+# 出图接口自检产物
+assets/api_test/
+
+# 上传暂存（上传+回填成功后自动删除；异常中断时可能残留）
+assets/output/**/00-输入/上传暂存/
+
+# 交付包（按需保留，不进版本库）
+*.zip
